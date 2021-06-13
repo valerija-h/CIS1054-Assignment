@@ -35,7 +35,7 @@ SKULL Gaming has access to the databases in which products’ details, employees
 The <b>DRY</b> principle has been implemented in the website by including the header file, footer file, navigation bar file and more instead of re-copying the code. These types of files can be found in the `Includes` folder.
 
 <p align="center">
-  <img src="https://github.com/valerija-h/ICS2208-Assignment/blob/main/screenshots/product.png" width="40%"/>
-  <img src="https://github.com/valerija-h/ICS2208-Assignment/blob/main/screenshots/product-details.png" width="40%"/>
+  <img src="https://github.com/valerija-h/CIS1054-Assignment/blob/main/screenshots/products.PNG" height="300"/>
+  <img src="https://github.com/valerija-h/CIS1054-Assignment/blob/main/screenshots/product-details.PNG" height="300"/>
 </p>
 <p align="center"><b>Figure 1</b> - Example full-page screenshots of the website on the product (left) and product-details (right) pages</p>

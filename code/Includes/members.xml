@@ -1,0 +1,14 @@
+<employees>
+<employee>
+    <name>Valerija Holomjova</name>
+    <img>Pictures/About_Us/default.jpeg</img>
+    <position>Owner</position>
+    <description>A hardworking and dedicated employee. Passionate about gaming and specializes in PC games.</description>
+</employee>
+<employee>
+    <name>Deborah Vella</name>
+    <img>Pictures/About_Us/default.jpeg</img>
+    <position>Owner</position>
+    <description>A hardworking and dedicated employee. Passionate about gaming and specializes in PS4 games.</description>
+</employee>
+</employees>

@@ -1,0 +1,139 @@
+
+/*-------------------Navigation Bar CSS-------------*/
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/*Makes the links float next to each other instead under each other*/
+#nav li {
+    float: left;
+}
+
+
+#nav li a{
+    display: inline-block;
+    color: rgb(0,255,0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Setting color when hovering over list links*/
+#nav li a:hover, .dropdown:hover{
+    background-color: #0e0e0f;
+}
+
+/*Here*/
+#nav li.dropdown {
+    display: inline-block;
+    /*float: left;*/
+}
+
+.material-icons{
+    color: rgb(0,255,0);
+    font-size:18px;
+    padding: 14px 16px;
+}
+
+.material-icons:hover{
+    background-color: #0e0e0f;
+}
+
+#nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #7f848c;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+
+
+#nav .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#nav .column {
+    float: left;
+    width: 25%;
+    padding: 0;
+    margin:0;
+    background-color: #ccc;
+    height: 250px;
+}
+
+#nav .column a {
+    float: none;
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size:13px;
+    font-family: sans-serif;
+}
+
+#nav .column a:hover{
+    color:rgb(0,255,0);
+    cursor: pointer;
+}
+
+/* Clear floats after the columns */
+#nav .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+#nav @media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*to center the skull image*/
+#banner .center {
+    display: block;
+    margin-left: 35%;
+    margin-right: 25%;
+    width: 25%;
+}
+
+/*Search Bar CSS*/
+#nav .search-container {
+    float: right;
+}
+
+#nav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    color: white;
+    border: none;
+    background: black;
+}
+
+#nav .search-container button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    background: #222222;
+    color: rgb(0,255,0);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+#nav .search-container button:hover {
+    background-color:  #0e0e0f;
+}

@@ -1,0 +1,478 @@
+<page>
+
+
+
+    <categories>
+        <!--Giving each category and id.  the below have no parents-->
+        <category>
+            <id>01</id>
+            <img>Pictures/Index/Categories/systems.jpg</img>
+            <name>Gaming Systems</name>
+        </category>
+
+        <category>
+            <id>02</id>
+            <img>Pictures/Index/Categories/consoles2.jpg</img>
+            <name>Gaming Consoles</name>
+        </category>
+
+        <category>
+            <id>03</id>
+            <img>Pictures/Index/Categories/gamingperipherals.jpg</img>
+            <name>Gaming Peripherals</name>
+        </category>
+
+        <category>
+            <id>04</id>
+            <img>Pictures/Index/Categories/games.jpg</img>
+            <name>Games</name>
+        </category>
+
+        <!--The below are sub-categories of the above categories, and store their corresponding parent id-->
+        <category>
+            <id>05</id>
+            <name>Laptop</name>
+            <parent_id>01</parent_id>
+        </category>
+
+        <category>
+            <id>06</id>
+            <name>PC</name>
+            <parent_id>01</parent_id>
+        </category>
+
+        <category>
+            <id>07</id>
+            <name>XBOX</name>
+            <parent_id>02</parent_id>
+        </category>
+
+        <category>
+            <id>08</id>
+            <name>PS4</name>
+            <parent_id>02</parent_id>
+        </category>
+
+        <category>
+            <id>09</id>
+            <name>Nintendo</name>
+            <parent_id>02</parent_id>
+        </category>
+
+        <category>
+            <id>10</id>
+            <name>Mouse</name>
+            <parent_id>03</parent_id>
+        </category>
+
+        <category>
+            <id>11</id>
+            <name>Keyboard</name>
+            <parent_id>03</parent_id>
+        </category>
+
+        <category>
+            <id>12</id>
+            <name>Headset</name>
+            <parent_id>03</parent_id>
+        </category>
+
+        <category>
+            <id>13</id>
+            <name>Controllers</name>
+            <parent_id>03</parent_id>
+        </category>
+
+        <category>
+            <id>14</id>
+            <name>XBOX</name>
+            <parent_id>04</parent_id>
+        </category>
+
+        <category>
+            <id>15</id>
+            <name>PS4</name>
+            <parent_id>04</parent_id>
+        </category>
+
+        <category>
+            <id>16</id>
+            <name>Nintendo</name>
+            <parent_id>04</parent_id>
+        </category>
+
+        <category>
+            <id>17</id>
+            <name>PC</name>
+            <parent_id>04</parent_id>
+        </category>
+
+
+    </categories>
+
+<products>
+	
+	<product>
+                <name>Asus ROG GL702VS 17.3" Core i7-7700HQ 1TB+256GB SSD 24GB GTX1070 Win10 Gaming Laptop</name>
+                <id>001</id>
+                <img>Pictures/Product_Pics/Gaming_Systems/Laptops/asus.jpg</img>
+                <price>2800.00</price>
+                <description><![CDATA[•  Intel Core i7-7700HQ 2.8 GHz<br />      
+                 •   24GB DDR4<br />
+                •   1TB+256GB<br />
+                •   8 GB GeForce GTX 1070.]]>
+                    </description>
+                <category_id>05</category_id>
+            </product>
+
+            <product>
+                <name>Apple MacBook Pro MPTV2B/A 15" Silver w/Touch Bar+ id i7 2.9GHz 512GB SSD Storage</name>
+                <id>002</id>
+                <img>Pictures/Product_Pics/Gaming_Systems/Laptops/apple.jpg</img>
+                <price>3700.00</price>
+                <description><![CDATA[•  Intel Core i7 2.9 GHz (Turbo 3.9 GHz)<br />      
+                 •   16GB 2133MHz LPDDR3<br />
+                •   512GB PCIe SSD<br />
+                •   4GB AMD Radeon Pro 560<br />
+                •   Touch Bar with Integrated Touch id Sensor]]></description>
+                <category_id>05</category_id>
+            </product>
+
+            <product>
+                <name>Acer Swift 7 SF713-51 13.3" Core i5-7Y54 256GB SSD 8GB Win10 Gold Laptop</name>
+                <id>003</id>
+                <img>Pictures/Product_Pics/Gaming_Systems/Laptops/acer.jpg</img>
+                <price>1250.00</price>
+                <description><![CDATA[•  Intel Corei5-7Y54 1.2 GHz<br />      
+                 •   8GB DDR3L<br />
+                •   256GB SSD<br />
+                •   Intel HD Graphics 615<br />]]></description>   
+                <category_id>05</category_id>
+            </product>
+
+            <product>
+                <name>Alienware 17 (GTX1070)</name>
+                <id>004</id>
+                <img>Pictures/Product_Pics/Gaming_Systems/Laptops/alienware.jpg</img>
+                <price>2949.00</price>
+                <description>SUPREME MACHINE. Alienware 17 – 17-inch laptop, featuring Intel® Core™ i7 processors, dynamic overclocking and an FHD screen.</description>
+                <category_id>05</category_id>
+            </product>
+
+             <product>
+                <name>Alienware Aurora</name>
+                <id>005</id>
+                <img>Pictures/Product_Pics/Gaming_Systems/Desktop/alienware.png</img>
+                <price>949.00</price>
+                <description>Dual graphics-ready compact mid tower. Designed for virtual reality with the latest 8th Gen K-series Intel processors and engineered with optional liquid cooling and tool-less access.</description>
+                <category_id>06</category_id>
+            </product>
+
+            <product>
+                <name>Maingear R1 Razer Edition</name>
+                <id>006</id>
+                <img>Pictures/Product_Pics/Gaming_Systems/Desktop/razer.png</img>
+                <price>979.99</price>
+                <description>Dual graphics-ready compact mid tower. Designed for virtual reality with the latest 8th Gen K-series Intel processors and engineered with optional liquid cooling and tool-less access.</description>
+                <category_id>06</category_id>
+            </product>
+                
+            <product>
+                <name>Maingear Rush</name>
+                <id>007</id>
+                <img>Pictures/Product_Pics/Gaming_Systems/Desktop/rush.png</img>
+                <price>1555.99</price>
+                <description>Power and craftsmanship you can see with the most performance per liter of any system we have ever offered.</description>
+                <category_id>06</category_id>
+            </product>
+
+            <product>
+                <name>Xbox One S - 500 GB</name>
+                <id>008</id>
+                <img>Pictures/Product_Pics/Gaming_Consoles/Xbox/xbox_white.png</img>
+                <price>299.94</price>
+                <description>The Xbox One S is an enhanced Xbox console 40% smaller and with High Dynamic Range technology to make games look better than ever.</description>
+                <category_id>07</category_id>
+            </product>
+
+            <product>
+                <name>Microsoft XBOX One X 1TB Black Console</name>
+                <id>009</id>
+                <img>Pictures/Product_Pics/Gaming_Consoles/Xbox/xbox_black.png</img>
+                <price>525.00</price>
+                <description>Experience immersive true 4K gaming. Play on Xbox Live, the most advanced multiplayer network. Games run smoothly, look amazing, and load quickly on 1080p screens.</description>
+                <category_id>07</category_id>
+            </product>
+
+            <product>
+                <name>Sony Playstation 4 Slim 500GB</name>
+                <id>010</id>
+                <img>Pictures/Product_Pics/Gaming_Consoles/PS4/ps4.png</img>
+                <price>310.00</price>
+                <description>Sony Playstation 4 Slim 500GB</description>
+                <category_id>08</category_id>
+            </product>
+
+            <product>
+                <name>Sony Playstation 4 Pro 1TB Black Console w/Fifa 18 Game Bundle</name>
+                <id>011</id>
+                <img>Pictures/Product_Pics/Gaming_Consoles/PS4/ps4_pro.jpg</img>
+                <price>500.00</price>
+                <description>Sony Playstation 4 PRO 1TB Black Console w/Fifa 18</description>
+                <category_id>08</category_id>
+            </product>
+
+            <product>
+                <name>Nintendo Switch with Neon Red Joy-Con + Neon Blue Joy-Con Controllers</name>
+                <id>012</id>
+                <img>Pictures/Product_Pics/Gaming_Consoles/Nintendo/switch.png</img>
+                <price>369.95</price>
+                <description>Nintendo Switch is a breakthrough home video game console. It not only connects to a TV at home, but it also instantly transforms into an on-the-go handheld using its 6.2-inch screen.</description>
+                <category_id>09</category_id>
+            </product>
+
+             <product>
+                <name>Razer Mamba Tournament Edition Black USB Gaming Laser Mouse With Lighting</name>
+                <id>013</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Mouse/mamba.png</img>
+                <price>82.95</price>
+                <description>Control. Comfort. Customized.</description>
+                <category_id>10</category_id>
+            </product>
+
+            <product>
+                <name>Asus ROG Spatha RGB Wired/Wireless Gaming Mouse</name>
+                <id>014</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Mouse/asus.png</img>
+                <price>179.00</price>
+                <description>Asus ROG Spatha Laser MMO Gaming Mouse, RGB Back-Lit, 8200dpi, Wired/Wireless, USB 2.0, 12 Buttons, Omron Switches.</description>
+                <category_id>10</category_id>
+            </product>
+
+            <product>
+                <name>Razer Naga Chroma Black Wired Gaming Mouse</name>
+                <id>015</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Mouse/naga.png</img>
+                <price>89.00</price>
+                <description>12 mechanical (programmable) thumb buttons. Also the scroll wheel still moves left and right. What is new is the improved laser sensor to 16,000 instead of 8,200 dpi. And then there's the lighting. The Razer Naga Chroma lights in some 16.8 million colors.</description>
+                <category_id>10</category_id>
+            </product>
+
+            <product>
+                <name>Razer Cynosa Chroma RGB USB Gaming Keyboard</name>
+                <id>016</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Keyboard/cynosa.png</img>
+                <price>76.95</price>
+                <description>•  Wired&#13;&#10;
+                •   Chroma lighting&#13;&#10;
+                •   Non-mechanisache keys - Spill-resistant</description>
+                <category_id>11</category_id>
+            </product>
+                       
+             <product>
+                <name>Razer BlackWidow X Chroma RGB Mechanical USB Gaming Keyboard</name>
+                <id>017</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Keyboard/blackwidow.jpg</img>
+                <price>185.00</price>
+                <description>•  Wired&#13;&#10;
+                •   Lighting&#13;&#10;
+                •   Mechanical keys</description>
+                <category_id>11</category_id>
+            </product>
+
+            <product>
+                <name>Razer Kraken USB Black Gaming Headset</name>
+                <id>018</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Headset/kraken.png</img>
+                <price>59.95</price>
+                <description>Feast your ears on full-blooded gaming audio with the Razer Kraken USB. Everything in your games will be heard in immersive virtual surround, customizable to your needs via the Razer Surround calibration software. An included anti-noise microphone ensures teamwork and VOIP calls are conducted in absolute clarity.</description>
+                <category_id>12</category_id>
+            </product>
+
+            <product>
+                <name>Sony PS4 Platinum Wireless Gaming Headset</name>
+                <id>019</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Headset/sony.png</img>
+                <price>139.95</price>
+                <description>The Platinum Wireless Headset redefines premium gaming audio by creating an incredibly rich and detailed soundstage for your virtual world, faithfully delivering everything from the whisper of ghosts to the thunder of guns in stunning 7.1 Virtual Surround Sound powered by revolutionary 3D Audio technology.</description>
+                <category_id>12</category_id>
+            </product>
+
+                        <product>
+                <name>Sony PlayStation DualShock 4 Controller</name>
+                <id>021</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Controller/dualshock.jpg</img>
+                <price>59.99</price>
+                <description>The DUALSHOCK®4 wireless controller defines the new generation of play, combining revolutionary features with an intuitive design and precise controls.</description>
+                <category_id>13</category_id>
+            </product>
+
+            <product>
+                <name>Xbox One Wireless Controller</name>
+                <id>022</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Controller/xbox.jpg</img>
+                <price>69.99</price>
+                <description>Experience the enhanced comfort and feel of the new Xbox Wireless Controller, with a sleek, streamlined design and textured grip.</description>
+                <category_id>13</category_id>
+            </product>
+
+            <product>
+                <name>Nintendo Switch Joy-Con Controller Pair</name>
+                <id>023</id>
+                <img>Pictures/Product_Pics/Gaming_Peripherals/Controller/joy-con.jpg</img>
+                <price>89.99</price>
+                <description>Pick up an extra set (or two) of Joy-Con, the controllers that make new kinds of gaming possible.</description>
+                <category_id>13</category_id>
+            </product>
+
+            <product>
+                <name>The Evil Within</name>
+                <id>027</id>
+                <img>Pictures/Product_Pics/Games/Xbox/evilwithin.png</img>
+                <price>19.99</price>
+                <description> Developed by Shinji Mikami -- creator of the seminal Resident Evil series -- and the talented team at Tango Gameworks.</description>
+                <category_id>14</category_id>
+            </product>
+
+            <product>
+                <name>Far Cry 5</name>
+                <id>028</id>
+                <img>Pictures/Product_Pics/Games/Xbox/farcry.png</img>
+                <price>65.95</price>
+                <description> Welcome to Hope County, Montana. This idyllic place is home to a community of freedom-loving people - and a fanatical doomsday cult known as The Project at Eden's Gate.</description>
+                <category_id>14</category_id>
+
+            </product>
+
+            <product>
+                <name>Assassin's Creed Origins</name>
+                <id>029</id>
+                <img>Pictures/Product_Pics/Games/Xbox/origins.png</img>
+                <price>55.99</price>
+                <description>Set in mysterious Ancient Egypt, Assassin’s Creed® Origins is a new beginning.</description>
+                <category_id>14</category_id>
+
+            </product>
+
+            <product>
+                <name>Tekken 7</name>
+                <id>030</id>
+                <img>Pictures/Product_Pics/Games/Xbox/tekken.png</img>
+                <price>59.99</price>
+                <description>Love, Revenge, Pride. Each one of us has a reason to fight.</description>
+                <category_id>14</category_id>
+
+            </product>
+
+            <product>
+                <name>Watch Dogs 2</name>
+                <id>031</id>
+                <img>Pictures/Product_Pics/Games/Xbox/watchdogs.png</img>
+                <price>44.95</price>
+                <description>In 2016, ctOS 2.0, an advanced operating system networking city infrastructure, was implemented in several US cities to create a safer, more efficient metropolis.</description>
+                <category_id>14</category_id>
+
+            </product>
+
+            <product>
+                <name>Battlefield 1 Revolution</name>
+                <id>032</id>
+                <img>Pictures/Product_Pics/Games/PS4/battlefield.jpg</img>
+                <price>30.00</price>
+                <description>Join the strong Battlefield community and jump into the epic battles of The Great War in this critically acclaimed first-person shooter.</description>
+                <category_id>15</category_id>
+
+            </product>
+
+            <product>
+                <name>Far Cry 5</name>
+                <id>033</id>
+                <img>Pictures/Product_Pics/Games/PS4/farcry.jpg</img>
+                <price>65.95</price>
+                <description>Welcome to Hope County, Montana. This idyllic place is home to a community of freedom-loving people - and a fanatical doomsday cult known as The Project at Eden's Gate.</description>
+                <category_id>15</category_id>
+            </product>
+
+            <product>
+                <name>Assassin’s Creed: Origins</name>
+                <id>034</id>
+                <img>Pictures/Product_Pics/Games/PS4/origins.jpg</img>
+                <price>59.95</price>
+                <description>Assassin's Creed® Origins is a new beginning. Take on epic enemies with a whole new combat system.</description>
+                <category_id>15</category_id>
+            </product>
+
+            <product>
+                <name>Thief</name>
+                <id>035</id>
+                <img>Pictures/Product_Pics/Games/PS4/thief.jpeg</img>
+                <price>39.95</price>
+                <description>Garrett, the Master Thief, steps out of the shadows into the City. In this treacherous place, where the Baron's Watch spreads a rising tide of fear and oppression, his skills are the only things he can trust.</description>
+                <category_id>15</category_id>
+            </product>
+
+            <product>
+                <name>Call of Duty: WWII</name>
+                <id>036</id>
+                <img>Pictures/Product_Pics/Games/PS4/callofduty.jpg</img>
+                <price>59.99</price>
+                <description>Call of Duty® returns to its roots with Call of Duty®: WWII - an experience that redefines World War II for a new gaming generation.</description>
+                <category_id>15</category_id>
+            </product>
+
+            <product>
+                <name>Just dance 2018</name>
+                <id>037</id>
+                <img>Pictures/Product_Pics/Games/Nintendo/justdance.png</img>
+                <price>59.99</price>
+                <description>Just Dance 2018 is the newest game from the Just Dance franchise!</description>
+                <category_id>16</category_id>
+            </product>
+
+            <product>
+                <name>Lego City Undercover</name>
+                <id>040</id>
+                <img>Pictures/Product_Pics/Games/Nintendo/lego.png</img>
+                <price>49.95</price>
+                <description>In LEGO® CITY Undercover, players become Chase McCain, a police officer who goes undercover to hunt down the notorious – and recently escaped – criminal, Rex Fury.</description>
+                <category_id>16</category_id>
+            </product>
+
+            <product>
+                <name>FIFA 18 Standard Edition</name>
+                <id>041</id>
+                <img>Pictures/Product_Pics/Games/Nintendo/fifa.jpg</img>
+                <price>59.99</price>
+                <description>EA SPORTS FIFA 18 on Nintendo Switch is the most immersive, social, and authentic football game ever created for Nintendo players.</description>
+                <category_id>16</category_id>
+            </product>
+
+            <product>
+                <name>Warlords of Draenor</name>
+                <id>024</id>
+                <img>Pictures/Product_Pics/Games/PC/wow.png</img>
+                <price>19.99</price>
+                <description>Across Draenor's savage jungles and battle-scarred plains, Azeroth's heroes will engage in a mythic conflict.</description>
+                <category_id>17</category_id>
+            </product>
+            
+            <product>
+                <name>Resident Evil 7 Biohazard </name>
+                <id>025</id>
+                <img>Pictures/Product_Pics/Games/PC/residentevil.png</img>
+                <price>44.95</price>
+                <description>Resident Evil 7 biohazard sets a new course for the Resident Evil series as it leverages its roots and opens the door to a truly terrifying horror experience..</description>
+                <category_id>17</category_id>
+            </product>
+
+            <product>
+                <name>Prey</name>
+                <id>026</id>
+                <img>Pictures/Product_Pics/Games/PC/prey.png</img>
+                <price>39.99</price>
+                <description> You are Morgan Yu, the subject of morally dubious experiments designed to improve the human race.</description>
+                <category_id>17</category_id>
+            </product>
+</products>
+
+</page>

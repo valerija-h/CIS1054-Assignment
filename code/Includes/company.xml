@@ -1,0 +1,44 @@
+<company>
+    <address>
+        <location><![CDATA[
+            ICT Faculty, University of Malta <br />
+            Univeristy Ring Rd <br />
+            Msida MSD 2080 <br />
+            Malta]]>
+        </location>
+        <hours><![CDATA[
+            Mondays - 09:00 - 17:00 <br />
+            Tuesdays - 09:00 - 17:00 <br />
+            Wednesdays - 09:00 - 17:00 <br />
+            Thursdays - 09:00 - 17:00 <br />
+            Fridays - 09:00 - 17:00 <br />
+            Saturdays & Sundays - Closed ]]>
+        </hours>
+    </address>
+    <emails>
+        <email>
+            <name>Owners</name>
+            <contact><![CDATA[
+                valerija.holomjova.17@um.edu.mt <br />
+                deborah.vella.17@um.edu.mt]]>
+            </contact>
+        </email>
+        <email>
+            <name>Company</name>
+            <contact>skullgaming.malta@gmail.com</contact>
+        </email>
+    </emails>
+    <phones>
+        <phone>
+            <name>General Queries</name>
+            <number><![CDATA[
+                +356 2340 2340 <br />
+                +356 2340 4100]]>
+            </number>
+        </phone>
+        <phone>
+            <name>Main Office</name>
+            <number>+356 2340 2530</number>
+        </phone>
+    </phones>
+</company>

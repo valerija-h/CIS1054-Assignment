@@ -1,0 +1,162 @@
+
+#index #slideshow * {box-sizing:border-box}
+
+/* Slideshow container */
+#index #slideshow .slideshow-container {
+    max-width: 100%;
+    position: relative;
+}
+
+/* Next & previous buttons */
+#index #slideshow .previous, .next {
+    cursor: pointer; /*changing the mouse cursor display to a hand cursor when hovering over the arrows*/
+    position: absolute;
+    top: 50%;        /*Positioning the arrows in the middle of the total height*/
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(0,255,0);
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.4s ease;
+    border-radius: 0 2px 2px 0;
+}
+
+/* Position the "next button" to the right */
+#index #slideshow .next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+#index #slideshow .previous:hover, .next:hover {
+    background-color: #222222;
+}
+
+
+/* Number text (1/4 etc) */
+#index #slideshow .numbers {
+    color:rgb(0,255,0);
+    font-size: 14px;
+    padding: 13px 14px;
+    position: absolute;
+    bottom: 0;
+    font-weight:bold;
+}
+
+/* The dots/bullets/indicators */
+#index #slideshow .dot {
+    cursor: pointer;  /*changing the mouse cursor display to a hand cursor when hovering over the arrows*/
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: rgb(0,255,0);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+#index #slideshow .active, .dot:hover {
+    background-color: #222222;
+}
+
+/* Fading animation */
+#index #slideshow .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 6s;
+    animation-name: fade;
+    animation-duration: 6s;
+}
+
+#index #slideshow @-webkit-keyframes fade {
+                      from {opacity: .4}
+                      to {opacity: 1}
+                  }
+
+#index #slideshow @keyframes fade {
+                      from {opacity: .4}
+                      to {opacity: 1}
+                  }
+
+#index #slideshow hr {
+
+    border-color: rgb(68, 68, 71) ;
+    border-style: solid;
+    border-width: 15px;
+}
+
+/* ---------- REST OF INDEX ------ */
+#index div.text {
+    text-align: center;
+    font-size: 23px;
+    letter-spacing:2px;
+    font-family: "Optima, San-serif", Optima, sans-serif;
+
+}
+
+/* Centered text */
+#index .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Container holding the image and the text */
+#index .row1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    display:inline-block;
+    margin: .5%;
+    float: left;
+    width: 24%;
+}
+
+#index div.row1 img:hover{
+    border: 3px solid rgb(0,255,0);
+    opacity: 0.44;
+}
+
+#index div.row1 img {
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+    border: 1px solid #ccc;
+}
+
+#index div.rowpic{
+    background-color:rgb(34,34,35);
+    padding: 1%; /*10px*/
+    clear:left;
+    overflow:hidden;
+    display:inline-block;
+}
+
+#index .description img{
+    float:left;
+    margin-top:1%;
+    margin-bottom:1%;
+    margin-left:1%;
+    margin-right:2%;
+}
+
+#index .description {
+    background-color: rgb(34, 34, 35);
+
+    display:inline-block;
+    padding: 1% 1% 1% 1%;
+}
+
+#index .description p{
+    color: white;
+    font-size: 22px;
+    font-family: Arial;
+    /*padding: 1% 2% 2% 2%;*/
+}
+#index .description p .text_description{
+margin:1%;
+}
+
+
+
